@@ -38,7 +38,5 @@ int fact ( int n ) {
 }
 
 int fact_recursive ( int n ) {
-  if ( n == 1 ) return 1;
-
-  return n * fact_recursive ( n - 1 );
+  return ( n == 1 ) ? 1 : n * fact_recursive ( n - 1 );
 }
