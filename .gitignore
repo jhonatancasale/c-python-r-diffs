@@ -32,5 +32,8 @@
 *.dSYM/
 *.su
 
-#tmp files
+# tmp files
 *.~
+
+# Makefiles
+Makefile
