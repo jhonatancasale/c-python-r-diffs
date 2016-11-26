@@ -26,5 +26,12 @@ int main (int argc, char **argv)
     printf ( "< 0\n" ); 
   }
 
+  // for single line statements the {} is optional
+  if ( i > 0 ) printf ( "> 0\n" ); 
+
+  else if ( i == 0 ) printf ( "== 0\n" ); 
+
+  else printf ( "< 0\n" ); 
+
   return (EXIT_SUCCESS);
 }

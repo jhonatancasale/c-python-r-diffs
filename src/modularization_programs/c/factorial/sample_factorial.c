@@ -29,6 +29,18 @@ int main (int argc, char **argv)
   return (EXIT_SUCCESS);
 }
 
+/**
+ *  int fact( int n ){
+ *    int partial = 1;
+ *
+ *    for( int i = n; i > 1; i-- ){
+ *      partial = partial * i;
+ *    }
+ *
+ *    return partial;
+ *  }
+ */
+
 int fact ( int n ) {
   int accum = 1;
 

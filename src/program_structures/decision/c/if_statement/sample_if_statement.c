@@ -22,5 +22,12 @@ int main (int argc, char **argv)
     printf ( "True\n" );
   }
 
+  // for single line statements the {} is optional
+  if ( i == 0 ) 
+    printf ( "True\n" );
+
+  // or
+  if ( i == 0 ) printf ( "True\n" );
+
   return (EXIT_SUCCESS);
 }

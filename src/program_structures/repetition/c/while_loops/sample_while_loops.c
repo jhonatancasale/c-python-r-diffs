@@ -23,5 +23,16 @@ int main (int argc, char **argv)
     i++;
   }
 
+  printf ( "\n" );
+  // for single line statements the {} is optional
+  i = -1;
+  while ( i++ < 10 )
+    printf ("%d\n", i );
+
+  printf ( "\n" );
+  // or
+  i = -1;
+  while ( i++ < 10 ) printf ("%d\n", i );
+
   return (EXIT_SUCCESS);
 }

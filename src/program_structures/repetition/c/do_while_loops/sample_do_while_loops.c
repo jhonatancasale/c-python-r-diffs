@@ -21,7 +21,18 @@ int main (int argc, char **argv)
   do {
     printf ( "%d\n", i ); 
   } while ( i++ < 10 );
+  printf ( "\n" );
 
+  // for single line statements the {} is optional
+  i = 0;
+  do
+    printf ( "%d\n", i ); 
+  while ( i++ < 10 );
+  printf ( "\n" );
+
+  // or
+  i = 0;
+  do printf ( "%d\n", i ); while ( i++ < 10 );
 
   return (EXIT_SUCCESS);
 }

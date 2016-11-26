@@ -20,5 +20,14 @@ int main (int argc, char **argv)
     printf("%d\n", i );
   }
 
+  printf ( "\n" );
+  // for single line statements the {} is optional
+  for ( int i = 0; i < 10; i++ ) 
+    printf("%d\n", i );
+
+  printf ( "\n" );
+  // or
+  for ( int i = 0; i < 10; i++ ) printf("%d\n", i );
+
   return (EXIT_SUCCESS);
 }

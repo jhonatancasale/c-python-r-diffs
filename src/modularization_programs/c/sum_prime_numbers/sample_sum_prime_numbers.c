@@ -21,7 +21,7 @@ int sum_primes ( int, int );
 int main (int argc, char **argv)
 {
   srand(time(NULL));
-  
+
   int j = ( rand () % 99 ) + 2;
 
   printf ( "[2, %d].primes => [", j );
