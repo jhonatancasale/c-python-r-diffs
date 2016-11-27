@@ -43,3 +43,7 @@ todo.wiki
 
 # Research dir
 research
+
+# Ignore IPython Notebooks checkpoints
+checkpoint.ipynb
+*-checkpoint.ipynb
