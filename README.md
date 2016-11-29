@@ -19,7 +19,13 @@
 ------------
 
 # Para aprender as diferenças entre C, Python e R
-  Esse repositório visa agregar as diferenças mais notáveis entre C, Python e R da perspectiva de um estudante de graduação em estatística.
+  Esse repositório visa agregar as diferenças mais notáveis entre C, Python e R
+da perspectiva de um estudante de graduação em estatística.
+
+  É assumido conhecimento prévio em qualquer uma das linguagens,
+preferencialmente C, a ideia não é listar um conteúdo exaustivo, mas sim apenas
+familiarizar o leitor nos seus primeiros passos no processo de estudo da nova
+linguagem desejada.
 
 ### Focando em um subconjunto do programa da disciplina de introdução á Ciência da Computação para estatística
 * Estruturas de programas: 
